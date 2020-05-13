@@ -1,6 +1,6 @@
 # boc
 
-boc is a simple utility to count the bytes of code for a given Github user.
+`boc` is a simple utility to count the bytes of code for a given Github user.
 
 ### setup
 
@@ -14,7 +14,7 @@ build:
 $ go build
 ```
 
-read [this](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) article on how to create an access token for the GitHub API. Make sure you select access for repositories.
+read [this](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) article on how to create an access token for the GitHub API. make sure you select access for repositories.
 
 once you have the access token, create a file `config.json`:
 
@@ -26,11 +26,11 @@ and edit it to include this:
 
 ```json
 {
-    "MY_KEY": "<YOUR-KEY-HERE"
+    "MY_KEY": "<YOUR-KEY-HERE>"
 }
 ```
 
-paste your key in the required value.
+paste your access key as a value to `MY_KEY` as shown above.
 
 ### usage
 
